@@ -12,7 +12,7 @@ function FormComp() {
     const [items, setItems] = useState({});
 
 
-    console.log(items,'@@@@@@@@')
+    console.log(items,'@@@')
     const navigate = useNavigate()
     const initialValues = {
         email: "",
